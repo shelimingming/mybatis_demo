@@ -4,6 +4,9 @@ import com.sheliming.mybatis.demo.config.AppConfig;
 import com.sheliming.mybatis.demo.service.UserService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+/**
+ * spring+mybatis整合
+ */
 public class Test {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
