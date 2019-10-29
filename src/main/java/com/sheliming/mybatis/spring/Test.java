@@ -1,7 +1,7 @@
-package com.sheliming.mybatis.demo;
+package com.sheliming.mybatis.spring;
 
-import com.sheliming.mybatis.demo.config.AppConfig;
-import com.sheliming.mybatis.demo.service.UserService;
+import com.sheliming.mybatis.spring.config.AppConfig;
+import com.sheliming.mybatis.spring.service.UserService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**

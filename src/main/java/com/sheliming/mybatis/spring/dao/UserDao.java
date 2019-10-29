@@ -1,4 +1,4 @@
-package com.sheliming.mybatis.demo.dao;
+package com.sheliming.mybatis.spring.dao;
 
 import org.apache.ibatis.annotations.Select;
 

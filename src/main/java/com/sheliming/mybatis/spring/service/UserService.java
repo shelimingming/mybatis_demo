@@ -1,6 +1,6 @@
-package com.sheliming.mybatis.demo.service;
+package com.sheliming.mybatis.spring.service;
 
-import com.sheliming.mybatis.demo.dao.UserDao;
+import com.sheliming.mybatis.spring.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

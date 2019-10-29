@@ -1,4 +1,4 @@
-package com.sheliming.mybatis.demo.config;
+package com.sheliming.mybatis.spring.config;
 
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.annotation.MapperScan;
@@ -11,8 +11,8 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import javax.sql.DataSource;
 
 @Configuration
-@ComponentScan("com.sheliming.mybatis.demo")
-@MapperScan("com.sheliming.mybatis.demo.dao")
+@ComponentScan("com.sheliming.mybatis.spring")
+@MapperScan("com.sheliming.mybatis.spring.dao")
 public class AppConfig {
     @Bean
     @Autowired
